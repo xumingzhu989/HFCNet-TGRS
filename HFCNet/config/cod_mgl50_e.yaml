@@ -1,0 +1,33 @@
+DATA:
+  data_name: EORSSD
+  data_root: /root/dataset/EORSSD-aug #/root/lyt/dataset/ors-4199-aug
+  train_list: /root/dataset/EORSSD-aug/train.txt
+TRAIN:
+  split: train  # split in [train, val and test]
+  img_h: 224 #256 #288
+  img_w: 224 #256 #288
+
+  train_batch_size: 8 #16
+  epoch_num: 40
+
+  scale_min: 0.5  # minimum random scale
+  scale_max: 2.0  # maximum random scale
+  rotate_min: -90 #-10  # minimum random rotate
+  rotate_max: 90 #10  # maximum random rotate
+  ignore_label: 0 # 255
+
+  workers: 16  # data loader workers
+
+  model_path: ./modelPTH-EORSSD/ # ./modelPTH-ORSSD/
+
+  pretrained: ./pretrained/swin_base_patch4_window12_384_22k.pth
+  swin_type: base
+  resume: 
+
+TEST:
+  test_list: /root/dataset/EORSSD-aug/test.txt
+
+  split: test  # split in [train, val and test]
+  test_batch_size: 1
+  results_folder: ./results/EORSSD/  
+
