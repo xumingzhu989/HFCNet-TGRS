@@ -1,6 +1,6 @@
 ## HFCNet: Heterogeneous Feature Collaboration Network for Salient Object Detection in Optical Remote Sensing Images
 
-Welcome to the official repository for the paper "Heterogeneous Feature Collaboration Network for Salient Object Detection in Optical Remote Sensing Images", IEEE TGRS, 2024.[**[IEEE link](https://eff.org)**]
+Welcome to the official repository for the paper "Heterogeneous Feature Collaboration Network for Salient Object Detection in Optical Remote Sensing Images", IEEE TGRS, 2024. [**[IEEE link](https://eff.org)**]
 
 #### The Initialization Weights for Training
 Download pre-trained classification weights of the [Swin Transformer](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window12_384_22k.pth) and [VGG](https://download.pytorch.org/models/vgg16-397923af.pth), and put the ` pth ` file in ` ./pretrained `. These weights are needed for training to initialize the model.
