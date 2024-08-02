@@ -25,13 +25,13 @@ Download the HFCNet model weights, create the necessary directories to store the
 
 ~~~python
 mkdir ./modelPTH-ORSSD
-python -u main.py --flag test --model_id HFCNet --config config/cod_mgl50_o.yaml
+python main.py --flag test --model_id HFCNet --config config/cod_mgl50_o.yaml
 
 mkdir ./modelPTH-EORSSD
-python -u main.py --flag test --model_id HFCNet --config config/cod_mgl50_e.yaml 
+python main.py --flag test --model_id HFCNet --config config/cod_mgl50_e.yaml 
 
 mkdir ./modelPTH-ORSI
-python -u main.py --flag test --model_id HFCNet --config config/cod_mgl50_orsi.yaml
+python main.py --flag test --model_id HFCNet --config config/cod_mgl50_orsi.yaml
 ~~~
 
 ### Citation
