@@ -28,7 +28,7 @@ import random
 # 解析参数
 def get_parser():
     parser = argparse.ArgumentParser(description='PyTorch Semantic Segmentation')
-    parser.add_argument('--config', type=str, default='config/cod_mgl50_o.yaml', help='config file')
+    parser.add_argument('--config', type=str, default='config/dataset_o.yaml', help='config file')
     parser.add_argument('--device', type=str, default='cuda:0')
     parser.add_argument('--model_id', type=str, default='HFCNet')
     parser.add_argument('--flag', type=str, default='train')
