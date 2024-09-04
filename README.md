@@ -7,17 +7,17 @@ Download pre-trained classification weights of the [Swin Transformer](https://gi
 
 ### Trained Weights of HFCNet for Testing
 
-coming soon.
+[Download](https://pan.baidu.com/s/1bVC4uxf3xKhLRcC08EQKMQ?pwd=hfcn)
 
 ### Train
 Please download the pre-trained model weights and dataset first. Next, generate the path lists of the training set and the test set, and change the dataset path in the code to the path of the dataset listing file (.txt) you specified.
 
 ~~~python
-nohup python -u main.py --flag train --model_id HFCNet --config config/cod_mgl50_o.yaml --device cuda:0 > train_ORSSD.log &
+nohup python -u main.py --flag train --model_id HFCNet --config config/dataset_o.yaml --device cuda:0 > train_ORSSD.log &
 
-nohup python -u main.py --flag train --model_id HFCNet --config config/cod_mgl50_e.yaml --device cuda:0 > train_EORSSD.log &
+nohup python -u main.py --flag train --model_id HFCNet --config config/dataset_e.yaml --device cuda:0 > train_EORSSD.log &
 
-nohup python -u main.py --flag train --model_id HFCNet --config config/cod_mgl50_orsi.yaml --device cuda:0 > train_ORSI.log &
+nohup python -u main.py --flag train --model_id HFCNet --config config/dataset_orsi.yaml --device cuda:0 > train_ORSI.log &
 ~~~
 
 ### Test
@@ -25,13 +25,13 @@ Download the HFCNet model weights, create the necessary directories to store the
 
 ~~~python
 mkdir ./modelPTH-ORSSD
-python main.py --flag test --model_id HFCNet --config config/cod_mgl50_o.yaml
+python main.py --flag test --model_id HFCNet --config config/dataset_o.yaml
 
 mkdir ./modelPTH-EORSSD
-python main.py --flag test --model_id HFCNet --config config/cod_mgl50_e.yaml 
+python main.py --flag test --model_id HFCNet --config config/dataset_e.yaml 
 
 mkdir ./modelPTH-ORSI
-python main.py --flag test --model_id HFCNet --config config/cod_mgl50_orsi.yaml
+python main.py --flag test --model_id HFCNet --config config/dataset_orsi.yaml
 ~~~
 
 ### Citation
