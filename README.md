@@ -37,3 +37,15 @@ python main.py --flag test --model_id HFCNet --config config/cod_mgl50_orsi.yaml
 ### Citation
 
 If it helps your research,  please use the information below to cite our work, thank you. 
+
+~~~
+@ARTICLE{HFCNet,
+  author={Liu, Yutong and Xu, Mingzhu and Xiao, Tianxiang and Tang, Haoyu and Hu, Yupeng and Nie, Liqiang},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Heterogeneous Feature Collaboration Network for Salient Object Detection in Optical Remote Sensing Images}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-14}}
+~~~
+
