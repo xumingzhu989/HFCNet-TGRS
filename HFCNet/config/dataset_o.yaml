@@ -1,9 +1,9 @@
 DATA:
   data_name: ORSSD
-  data_root: /root/dataset/ORSSD-aug #/root/lyt/dataset/ors-4199-aug
+  data_root: /root/dataset/ORSSD-aug 
   train_list: /root/dataset/ORSSD-aug/train.txt
 TRAIN:
-  split: train  # split in [train, val and test]
+  split: train  
   img_h: 224 #256 #288
   img_w: 224 #256 #288
 
@@ -27,7 +27,7 @@ TRAIN:
 TEST:
   test_list: /root/dataset/ORSSD-aug/test.txt
 
-  split: test  # split in [train, val and test]
+  split: test  
   test_batch_size: 1
   results_folder: ./results/ORSSD/  
 
