@@ -4,9 +4,10 @@
 
 ## Authors
 
-**Yutong Liu**<sup>1</sup>, **Mingzhu Xu**<sup>1</sup>, **Tianxiang Xiao**<sup>1</sup>, **Haoyu Tang**<sup>1</sup>, **Yupeng Hu**<sup>1</sup>, **Liqiang Nie**<sup>1</sup>\*
+**Yutong Liu**<sup>1</sup>, **Mingzhu Xu**<sup>1</sup>\*, **Tianxiang Xiao**<sup>1</sup>, **Haoyu Tang**<sup>1</sup>, **Yupeng Hu**<sup>1</sup>, **Liqiang Nie**<sup>2</sup>
 
 <sup>1</sup> `Shandong University`  
+<sup>2</sup> `Harbin Institute of Technology (Shen Zhen)`  
 \* Corresponding author
 
 ## Links
@@ -18,7 +19,6 @@
 
 ## Table of Contents
 
-- [Updates](#updates)
 - [Introduction](#introduction)
 - [Highlights](#highlights)
 - [Project Structure](#project-structure)
@@ -28,13 +28,6 @@
 - [Usage](#usage)
 - [Citation](#citation)
 - [License](#license)
-
----
-
-## Updates
-
-- [01/2024] Paper accepted by IEEE TGRS 2024.
-- [01/2024] Initial release of HFCNet training and testing codes.
 
 ---
 
