@@ -12,8 +12,8 @@
 
 ## Links
 
-- **Paper**: [`IEEE Xplore`](https://doi.org/10.1109/TGRS.2024.3351234) (Example DOI)
-- **Code Repository**: [`GitHub`](https://github.com/iLearn-Lab/HFCNet)
+- **Paper**: [`IEEE Xplore`](https://ieeexplore.ieee.org/document/10623773)
+- **Code Repository**: [`GitHub`](https://github.com/iLearn-Lab/TGRS24-HFCNet)
 
 ---
 
